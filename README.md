@@ -29,3 +29,6 @@ The following patches have been applied:
 -  [w3m](https://st.suckless.org/patches/w3m/st-w3m-0.8.3.diff)
 -  [workingdir](https://st.suckless.org/patches/workingdir/st-workingdir-20200317-51e19ea.diff)
 -  [xresources](https://st.suckless.org/patches/xresources/st-xresources-20200604-9ba7ecf.diff)
+
+## TODO
+-  Use [scroll](https://git.suckless.org/scroll/) for scrolling st instead of using the scrollback patches?
