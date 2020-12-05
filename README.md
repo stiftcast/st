@@ -6,6 +6,10 @@ My custom build of [st](https://st.suckless.org/), with inspiration taken from L
 - `<M-u> and <M-d>` - act as PgUp/PgDn
 - `<M-c> and <M-v>` - act as copy and paste
 - `<M-w and M-m>` - act as increase and decrease transparency respectively
+
+'M' in the above refers to the modkey, which is set in `config.h`, this build has it set to be the Alt key.
+
+Right clicking a selection of text will execute a program or script defined in `config.h` (plumb_cmd variable)
 ### Patches
 The following patches have been applied:
 -  [alpha](https://st.suckless.org/patches/alpha/st-alpha-0.8.2.diff)
@@ -13,6 +17,7 @@ The following patches have been applied:
 -  [anysize](https://st.suckless.org/patches/anysize/st-anysize-20201003-407a3d0.diff)
 -  [blinking cursor](https://st.suckless.org/patches/blinking_cursor/st-blinking_cursor-20200531-a2a7044.diff)
 -  [boxdraw](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.3.diff)
+-  [changealpha](https://github.com/LukeSmithxyz/st/commit/73a6020865607018f6442317e7f94fb5d54a7016)
 -  [clipboard](https://st.suckless.org/patches/clipboard/st-clipboard-20180309-c5ba9c0.diff)
 -  [desktopentry](https://st.suckless.org/patches/desktopentry/st-desktopentry-0.8.2.diff)
 -  [externalpipe](https://st.suckless.org/patches/externalpipe/st-externalpipe-0.8.4.diff) + [externalpipe-signal](https://st.suckless.org/patches/externalpipe-signal/st-externalpipe-signal-0.8.2.diff)
